@@ -1,5 +1,74 @@
-Work on the file with your name. Run tests as follows:-
+# Part 1 - Basic work flow.
 
+> git clone https://github.com/LCOGT/git-workshop.git
+> cd git-workshop
 > python test_<name>.py
 
-Edit the file and correct the failing tests.
+Eric correct failing tests.
+
+> git add test_<name>.py
+> git commit -m "Correct failing tests!"
+> git status
+> git log
+> git lg
+> git push origin master
+
+[view changes on https://github.com/LCOGT/git-workshop]
+
+# Part 2 - Audience participation.
+
+> git pull
+
+Fix test_<name>.py
+
+> git add test_<name>.py
+> git commit -m "Correct failing tests!"
+> git push origin master
+
+# Part 3 - Working on a branch.
+
+> git branch develop
+> git status
+> git lg
+> git checkout develop
+> git status
+> git lg
+
+Eric correct failing test.
+
+> git add test_<name>.py
+> git commit -m "Correct failing tests on branch!"
+> git status
+> git lg
+
+> git checkout master
+> git status
+> git lg
+> git merge develop
+
+# Part 4 - Merge conflicts.
+
+Eric and member of audience
+
+> git pull
+> git checkout develop
+
+Member of audience correct test_conflicts.py
+
+> git commit -am "Correct failing tests"
+> git checkout master
+> git merge develop
+> git push 
+
+Eric correct test_conflicts.py
+
+> git checkout master
+> git pull
+> git merge develop
+
+Correct conflicts
+
+> git add test_conflicts.py
+> git commit 
+> git push
+
