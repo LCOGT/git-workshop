@@ -58,7 +58,7 @@ Member of audience correct test_conflicts.py
 > git commit -am "Correct failing tests"
 > git checkout master
 > git merge develop
-> git push 
+> git push origin master 
 
 Eric correct test_conflicts.py
 
@@ -70,5 +70,5 @@ Correct conflicts
 
 > git add test_conflicts.py
 > git commit 
-> git push
+> git push origin master
 
