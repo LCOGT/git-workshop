@@ -1,3 +1,10 @@
+  ____ _ _    __        __         _        _
+ / ___(_) |_  \ \      / /__  _ __| | _____| |__   ___  _ __
+| |  _| | __|  \ \ /\ / / _ \| '__| |/ / __| '_ \ / _ \| '_ \
+| |_| | | |_    \ V  V / (_) | |  |   <\__ \ | | | (_) | |_) |
+ \____|_|\__|    \_/\_/ \___/|_|  |_|\_\___/_| |_|\___/| .__/
+                                                       |_|
+
 # Part 1 - Basic work flow.
 
 > git clone https://github.com/LCOGT/git-workshop.git
@@ -71,4 +78,3 @@ Correct conflicts
 > git add test_conflicts.py
 > git commit 
 > git push origin master
-
