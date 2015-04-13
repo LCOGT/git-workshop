@@ -26,7 +26,7 @@ class AboutAsserts(unittest.TestCase):
         """
         Sometimes we will ask you to fill in the values
         """
-        self.assertEqual(10, 3 + 7)
+        self.assertEqual(2, 1 + 1)
 
     def test_assert_equality(self):
         """
@@ -35,14 +35,15 @@ class AboutAsserts(unittest.TestCase):
         """
         expected_value = 23
         actual_value = 21 + 2
+
         self.assertTrue(expected_value == actual_value)
 
     def test_a_better_way_of_asserting_equality(self):
         """
         Some ways of asserting equality are better than others.
         """
-        expected_value = 100
-        actual_value = 19 + 81
+        expected_value = 40
+        actual_value = 20 + 20
 
         self.assertEqual(expected_value, actual_value)
 
