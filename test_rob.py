@@ -20,13 +20,13 @@ class AboutAsserts(unittest.TestCase):
         """
         Enlightenment may be more easily achieved with appropriate messages.
         """
-        self.assertTrue(True, "This should be true -- Please fix this")
+        self.assertTrue(False, "This should be true -- Please fix this")
 
     def test_fill_in_values(self):
         """
         Sometimes we will ask you to fill in the values
         """
-        self.assertEqual(10, 5 + 5)
+        self.assertEqual(10, 1 + 1)
 
     def test_assert_equality(self):
         """
@@ -34,7 +34,7 @@ class AboutAsserts(unittest.TestCase):
         reality.
         """
         expected_value = 23
-        actual_value = 12 + 11
+        actual_value = 1 + 1
         self.assertTrue(expected_value == actual_value)
 
     def test_a_better_way_of_asserting_equality(self):
@@ -42,7 +42,7 @@ class AboutAsserts(unittest.TestCase):
         Some ways of asserting equality are better than others.
         """
         expected_value = 100
-        actual_value = 10 * 10
+        actual_value = 1 + 1
 
         self.assertEqual(expected_value, actual_value)
 
@@ -52,7 +52,7 @@ class AboutAsserts(unittest.TestCase):
         """
 
         # This throws an AssertionError exception
-        assert True
+        assert False
 
 if __name__ == '__main__':
     unittest.main()
