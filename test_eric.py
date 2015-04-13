@@ -14,7 +14,7 @@ class AboutAsserts(unittest.TestCase):
         #
         #   http://bit.ly/about_asserts
 
-        self.assertTrue(False)  # This should be true
+        self.assertTrue(True)  # This should be true
 
 if __name__ == '__main__':
     unittest.main()
